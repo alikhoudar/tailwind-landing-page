@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  }
+}
